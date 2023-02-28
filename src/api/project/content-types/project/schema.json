@@ -1,0 +1,115 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "mainimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "web": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "thumb": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "services": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::service.service",
+      "mappedBy": "projects"
+    },
+    "mainimagePhone": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "sort": {
+      "type": "integer"
+    },
+    "format": {
+      "type": "enumeration",
+      "enum": [
+        "quer",
+        "hoch"
+      ]
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "links",
+        "rechts"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "gross",
+        "grossMehrzeilig",
+        "mittel",
+        "mittelMehrZeilig",
+        "klein"
+      ]
+    },
+    "margin": {
+      "type": "enumeration",
+      "enum": [
+        "ja",
+        "nein"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

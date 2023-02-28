@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_teasers_teasers_single_columns",
+  "info": {
+    "displayName": "teasers_single_column"
+  },
+  "options": {},
+  "attributes": {
+    "center": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teasers.teasers-column"
+    }
+  }
+}

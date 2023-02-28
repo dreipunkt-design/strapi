@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_homes",
+  "info": {
+    "singularName": "page-home",
+    "pluralName": "page-homes",
+    "displayName": "PageHome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "projects": {
+      "type": "dynamiczone",
+      "components": [
+        "teasers.teasers-single-column",
+        "teasers.teasers-two-columns"
+      ]
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "about_quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.information"
+    },
+    "service_quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.information"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.teaser-service"
+    },
+    "agentur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.image-fullscreen"
+    }
+  }
+}

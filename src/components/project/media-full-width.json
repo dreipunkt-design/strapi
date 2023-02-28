@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_media_full_widths",
+  "info": {
+    "displayName": "media_full_width"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

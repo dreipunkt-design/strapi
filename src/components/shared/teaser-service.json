@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_shared_teaser_services",
+  "info": {
+    "displayName": "TeaserService"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "referenz": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_label": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_teasers_teasers_columns",
+  "info": {
+    "displayName": "teasers_column"
+  },
+  "options": {},
+  "attributes": {
+    "project_slug": {
+      "type": "string"
+    }
+  }
+}

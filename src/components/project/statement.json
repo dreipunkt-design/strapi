@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_project_statements",
+  "info": {
+    "displayName": "statement"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

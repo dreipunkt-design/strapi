@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_project_images_single_columns",
+  "info": {
+    "displayName": "images_single_columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "center": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

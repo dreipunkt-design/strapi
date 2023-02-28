@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_agencies",
+  "info": {
+    "singularName": "page-agency",
+    "pluralName": "page-agencies",
+    "displayName": "PageAgency"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.information-hero"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.image-fullscreen"
+    },
+    "information": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.information-image"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.services"
+    },
+    "clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.clients"
+    }
+  }
+}

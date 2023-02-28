@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_edition_peterss",
+  "info": {
+    "singularName": "project-edition-peters",
+    "pluralName": "project-edition-peterss",
+    "displayName": "ProjectEditionPeters"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "dynamiczone",
+      "components": [
+        "project.images-single-columns",
+        "project.images-two-columns",
+        "project.statement",
+        "project.image-fullscreen"
+      ]
+    }
+  }
+}

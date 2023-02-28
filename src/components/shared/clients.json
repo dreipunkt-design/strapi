@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_clients",
+  "info": {
+    "displayName": "clients"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "text"
+    }
+  }
+}

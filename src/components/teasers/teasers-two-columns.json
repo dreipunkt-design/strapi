@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_teasers_teasers_two_columns",
+  "info": {
+    "displayName": "teasers_two_columns"
+  },
+  "options": {},
+  "attributes": {
+    "left": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teasers.teasers-column"
+    },
+    "right": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teasers.teasers-column"
+    }
+  }
+}

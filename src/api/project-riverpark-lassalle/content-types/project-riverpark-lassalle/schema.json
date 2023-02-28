@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_riverpark_lassalles",
+  "info": {
+    "singularName": "project-riverpark-lassalle",
+    "pluralName": "project-riverpark-lassalles",
+    "displayName": "ProjectRiverparkLassalle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "dynamiczone",
+      "components": [
+        "project.images-single-columns",
+        "project.images-two-columns",
+        "project.statement",
+        "project.image-fullscreen",
+        "project.project-information",
+        "project.media-full-width"
+      ]
+    }
+  }
+}

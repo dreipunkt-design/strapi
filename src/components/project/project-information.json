@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_project_project_informations",
+  "info": {
+    "displayName": "Information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "information": {
+      "type": "text"
+    }
+  }
+}

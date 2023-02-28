@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_image_fullscreens",
+  "info": {
+    "displayName": "image_fullscreen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

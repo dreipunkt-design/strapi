@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_collierss",
+  "info": {
+    "singularName": "project-colliers",
+    "pluralName": "project-collierss",
+    "displayName": "ProjectColliers"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "dynamiczone",
+      "components": [
+        "project.images-single-columns",
+        "project.images-two-columns",
+        "project.statement",
+        "project.image-fullscreen"
+      ]
+    }
+  }
+}

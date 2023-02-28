@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_servicess",
+  "info": {
+    "singularName": "page-services",
+    "pluralName": "page-servicess",
+    "displayName": "PageServices"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
