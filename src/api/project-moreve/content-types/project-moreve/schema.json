@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project-moreve",
     "pluralName": "project-moreves",
-    "displayName": "ProjectMoreve"
+    "displayName": "ProjectMoreve",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,7 +26,9 @@
         "project.images-single-columns",
         "project.images-two-columns",
         "project.statement",
-        "project.image-fullscreen"
+        "project.image-fullscreen",
+        "project.media-full-width",
+        "project.project-information"
       ]
     }
   }
