@@ -1,12 +1,15 @@
 {
   "collectionName": "components_teasers_teasers_columns",
   "info": {
-    "displayName": "teasers_column"
+    "displayName": "teasers_column",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "project_slug": {
-      "type": "string"
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project"
     }
   }
 }
