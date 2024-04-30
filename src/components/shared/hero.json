@@ -1,25 +1,30 @@
 {
   "collectionName": "components_shared_heroes",
   "info": {
-    "displayName": "hero"
+    "displayName": "hero",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "title": {
+    "line1": {
       "type": "string"
     },
-    "text": {
-      "type": "richtext"
+    "line2": {
+      "type": "string"
+    },
+    "line3": {
+      "type": "string"
     }
   }
 }
